@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 3 Question 2</title>
+    <style>
+        .wrong {color: red; background-color: yellow}
+    </style>
+    <script defer src="a3q2.js" type="text/javascript"></script>
+</head>
+<body>
+
+<h1>Assignment 3 Question 2</h1>
+
+<p>Enter a variable name starting with a lowercase letter followed by any number of letters (lower or <br/>uppercase), digits or the underscore character. The variable name should not have previously been <br/>added. </p>
+
+<label>
+    var:
+    <input type="text" onkeyup="validateVariable()" id="input"/></label>
+    <input type="button" onclick="addVariable()" value="Add"/>
+
+
+<h4>Variables</h4><br/>
+
+<ul id="list"></ul>
+
+</body>
+</html>
